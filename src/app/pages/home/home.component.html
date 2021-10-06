@@ -1,0 +1,7 @@
+<div class="content">
+  <div class="content__wrapper">
+    <div *ngFor="let link of links" class="content__item content__item_{{link.color}}" [routerLink]=[link.path]>
+      {{link.name}}
+    </div>
+  </div>
+</div>
