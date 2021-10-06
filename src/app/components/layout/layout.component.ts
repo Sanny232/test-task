@@ -7,7 +7,8 @@ import {Component, Input} from '@angular/core';
 })
 export class LayoutComponent {
   @Input() bgColor: string = 'green';
+  @Input() text: string = '';
 
-  constructor() { }
-
+  constructor() {
+  }
 }
